@@ -290,3 +290,11 @@ p {
 .headline{
   height: 128px;
 }
+#carouselExampleCaptions.carousel {
+  height: 70vh;
+}
+
+#carouselExampleCaptions.carousel img {
+  height: 70vh;
+  object-fit: cover;
+}
