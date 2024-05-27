@@ -198,22 +198,22 @@ p {
   width: 400px;
 }
 
-.h33{
+.h33 {
   font-size: 50px;
   line-height: 0.8;
   font-family: gt-sectra;
-    font-weight: 200;
-    color: black;
+  font-weight: 200;
+  color: black;
 }
 
-.lines{
+.lines {
   /* border: 0.9px solid red; */
   margin-top: 50px;
   display: flex;
   flex-direction: column;
 }
 
-.img1{
+.img1 {
   z-index: 1;
   /* border: 1px solid red; */
   position: absolute;
@@ -223,13 +223,13 @@ p {
   width: 33vw;
 }
 
-#imgid1{
+#imgid1 {
   height: 100%;
   width: 100%;
-  object-fit:cover;
+  object-fit: cover;
 }
 
-.img2{
+.img2 {
   z-index: 1;
   /* border: 1px solid red; */
   position: absolute;
@@ -239,38 +239,38 @@ p {
   width: 33vw;
 }
 
-#imgid2{
+#imgid2 {
   height: 100%;
   width: 100%;
-  object-fit:cover;
+  object-fit: cover;
 }
 
 .two {
   width: 100%;
-    height: 150px;
+  height: 150px;
   position: relative;
   /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.twoheadid{
+.twoheadid {
   /* border: 1px solid red; */
   font-size: 45px;
   line-height: 0.8;
   font-family: gt-sectra;
-    font-weight: 200;
-    color: black;
-    /* height: 0px; */
+  font-weight: 200;
+  color: black;
+  /* height: 0px; */
 }
-.twobtn{
+.twobtn {
   /* border: 1px solid red; */
   display: flex;
   margin-top: 3%;
   margin-left: 63%;
 }
 
-.twobtn1{
+.twobtn1 {
   /* border: 1px solid black; */
   display: flex;
   align-items: center;
@@ -282,12 +282,12 @@ p {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.twobtn2{
+.twobtn2 {
   height: 35px;
   width: 30px;
 }
 
-.headline{
+.headline {
   height: 128px;
 }
 #carouselExampleCaptions.carousel {
@@ -297,4 +297,232 @@ p {
 #carouselExampleCaptions.carousel img {
   height: 70vh;
   object-fit: cover;
+}
+
+.four {
+  position: relative;
+  height: 400px;
+  z-index: 1;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+.contentdiv4 {
+  margin-top: 280px;
+  margin-left: 185px;
+}
+
+.headdivfour {
+  margin-top: 70px;
+}
+
+.globe {
+  display: flex;
+  position: relative;
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 120vh;
+}
+
+.globeimg {
+  /* border: 1px solid red; */
+  height: auto;
+  width: 50%;
+  object-fit: cover;
+}
+
+#globeimg1 {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.globeinfo {
+  background: #000;
+  color: white;
+  display: flex;
+  width: 50%;
+  height: 70%;
+  /* border: 1px solid rgb(245, 126, 7); */
+}
+
+.globeinfotext {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px  solid red; */
+}
+
+.globeinfoimg {
+  height: 100%;
+  width: 40%;
+  /* border: 1px  solid red; */
+}
+
+.giimg{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.globepn{
+  /* border: 1px  solid red; */
+  margin-left: 15%;
+  margin-top: 15%;
+}
+
+.pnbuttom{
+  /* padding-left: 5px; */
+  height: 30px;
+  width: 30px;
+}
+
+.globelogomain{
+  display: flex;
+  margin-left: 15%;
+  margin-top: 15%;
+  /* padding-left: 10px; */
+}
+
+.glinfo{
+  font-size: 15px;
+  line-height: 0.8;
+  font-family: gt-sectra;
+}
+
+.glil{
+  height: 30px;
+  width: 30px;
+}
+.globelogo1{
+  margin-right: 25px;
+}
+
+.globecity{
+  /* border: 1px  solid red; */
+  margin-left: 15%;
+  margin-top: 15%;
+  font-family: gt-sectra;
+    font-weight: 200;
+}
+
+.gcity{
+  font-size: 20px;
+}
+.cityinfo{
+  font-size: 35px;
+}
+.locations{
+  margin-left: 15%;
+  margin-top: 15%;
+  display: flex;
+  align-items: center;
+  font-size: 5px;
+  line-height: 0.8;
+  font-family: gt-sectra;
+}
+.coordinatees{
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+
+.images {
+  display: flex;
+  width: 100%;
+  height: 95vh;
+}
+
+.imgs {
+  width: 33.33%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+
+.centercontent {
+  text-align: center;
+  color: white;
+  position: absolute;
+}
+
+.twobtn1 {
+  margin-top: 10px;
+}
+
+.twobtn2 {
+  vertical-align: middle;
+}
+
+.bbttnn{
+  border: 1px solid white;
+  margin-left: 5px;
+}
+.textimg{
+  font-family: gotham;
+    font-weight: 100;
+}
+
+footer{
+  height: 75vh;
+  width: 100%;
+  background: #000;
+  color: white;
+}
+.logoninfo{
+  display: flex;
+  /* border: 1px solid red; */
+  margin-top: 8%;
+  justify-content: space-around;
+  height: 50%;
+  width: 100%;
+}
+.last{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.logomain{
+  width: 40%;
+}
+.test{
+  margin-left: 8%;
+}
+.infoo{
+  margin-top: 15px;
+  color: hsla(0, 0%, 100%, .75);
+  font-size: 0.95rem;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.abh4{
+  margin-top: 15px;
+  color: white;
+  font-size: 0.95rem;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rights {
+  display: flex;
+  align-items: flex-end;
+  width: 50%;
+  margin-left: 11%;
+}
+
+.siteby {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  margin-right: 5%;
+  margin-top: 4%;
 }
