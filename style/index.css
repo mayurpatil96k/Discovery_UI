@@ -8,7 +8,7 @@ body {
   flex-direction: column;
 }
 
-.container {
+.container1 {
   height: 100vh;
   width: 100vw;
   overflow: hidden;
@@ -25,7 +25,7 @@ body {
   position: absolute;
 }
 
-header {
+.header {
   display: flex;
   position: absolute;
   background: rgba(0, 0, 0, 0);
@@ -47,16 +47,17 @@ header {
   /* border: 1px solid red; */
 }
 
-.headsection {
+.headsection1 {
   display: flex;
   align-items: center;
   justify-content: space-around;
   /* border: 1px solid red; */
+  z-index: 1;
   height: 100%;
   width: 70%;
 }
 
-h1 {
+.h11 {
   font-size: 0.95rem;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -95,11 +96,11 @@ h1 {
   /* position: absolute; */
 }
 
-.gap {
+.gapcustom {
   width: 10%;
 }
 
-.line {
+.line1 {
   z-index: 1;
   position: absolute;
   background: rgba(0, 0, 0, 0);
@@ -112,10 +113,17 @@ p {
   font-size: 6vw;
   font-family: gt-sectra;
   font-weight: 200;
-  line-height: 0;
+  line-height: 0.8;
   color: white;
 }
 
+.p1 {
+  font-size: 6vw;
+  font-family: gt-sectra;
+  font-weight: 200;
+  line-height: 0.8;
+  color: white;
+}
 .scrollline {
   /* border: 1px solid red; */
   z-index: 1;
@@ -176,7 +184,7 @@ p {
   font-size: 1.1rem;
   font-family: gt-sectra;
   font-weight: 200;
-  line-height: 0;
+  line-height: 0.8;
   color: #777;
 }
 
@@ -190,9 +198,9 @@ p {
   width: 400px;
 }
 
-h3{
-  font-size: 42px;
-  line-height: 0;
+.h33{
+  font-size: 50px;
+  line-height: 0.8;
   font-family: gt-sectra;
     font-weight: 200;
     color: black;
@@ -200,6 +208,7 @@ h3{
 
 .lines{
   /* border: 0.9px solid red; */
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
 }
@@ -238,7 +247,7 @@ h3{
 
 .two {
   width: 100%;
-    height: 250px;
+    height: 150px;
   position: relative;
   /* border: 1px solid red; */
   display: flex;
@@ -248,11 +257,11 @@ h3{
 .twoheadid{
   /* border: 1px solid red; */
   font-size: 45px;
-  line-height: 0;
+  line-height: 0.8;
   font-family: gt-sectra;
     font-weight: 200;
     color: black;
-    height: 0px;
+    /* height: 0px; */
 }
 .twobtn{
   /* border: 1px solid red; */
