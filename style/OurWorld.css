@@ -1,0 +1,273 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  /* overflow: auto; */
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.container1 {
+  height: 20vh;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+  background: #000;
+}
+
+.header {
+  display: flex;
+  position: absolute;
+  background: rgba(0, 0, 0, 0);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+#Layer_1 {
+  height: 50px;
+  width: 165px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 30%;
+  /* border: 1px solid red; */
+}
+
+.headsection1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 1px solid red; */
+  z-index: 1;
+  height: 100%;
+  width: 70%;
+}
+
+.h11 {
+  font-size: 0.95rem;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  color: white;
+}
+
+.linebtn1 {
+  background-color: white;
+  height: 1.5px;
+  width: 22px;
+}
+.linebtn2 {
+  background-color: white;
+  height: 2.5px;
+  width: 22px;
+}
+.linebtn3 {
+  background-color: white;
+  height: 1.5px;
+  width: 22px;
+  clip-path: inset(0 0 0 30%);
+}
+
+.headbtn {
+  height: 14px;
+  width: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  margin-right: 100px;
+  margin-left: 50px;
+  /* position: absolute; */
+}
+
+.gapcustom {
+  width: 10%;
+}
+
+.line1 {
+  z-index: 1;
+  position: absolute;
+  background: rgba(0, 0, 0, 0);
+  margin-top: 15vw;
+  /* border: 1px solid red; */
+  margin-left: 25vw;
+}
+
+p {
+  font-size: 6vw;
+  font-family: gt-sectra;
+  font-weight: 200;
+  line-height: 0.8;
+  color: white;
+}
+
+.p1 {
+  font-size: 6vw;
+  font-family: gt-sectra;
+  font-weight: 200;
+  line-height: 0.8;
+  color: white;
+}
+.scrollline {
+  /* border: 1px solid red; */
+  z-index: 1;
+  position: absolute;
+  background: rgba(0, 0, 0, 0);
+  margin-top: 35vw;
+  margin-left: 12vw;
+}
+
+.name {
+  color: white;
+  font-size: 1.3rem;
+  font-family: messina-sans;
+}
+
+.scroll {
+  color: hsla(0, 0%, 100%, 0.65);
+  font-size: 1rem;
+  font-family: messina-sans;
+}
+
+.arrow {
+  z-index: 1;
+  position: fixed;
+  background: rgba(0, 0, 0, 0);
+  height: 80px;
+  width: 80px;
+  border: 1px solid white;
+  margin-top: 35vw;
+  margin-left: 83vw;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.arr {
+  color: white;
+  height: 35px;
+  width: 30px;
+}
+
+
+footer {
+  height: 75vh;
+  width: 100%;
+  background: #161f1e;
+  color: white;
+}
+.logoninfo {
+  display: flex;
+  /* border: 1px solid red; */
+  margin-top: 8%;
+  justify-content: space-around;
+  height: 50%;
+  width: 100%;
+}
+.last {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.logomain {
+  width: 40%;
+}
+.test {
+  margin-left: 8%;
+}
+.infoo {
+  margin-top: 15px;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 0.95rem;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.abh4 {
+  margin-top: 15px;
+  color: white;
+  font-size: 0.95rem;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.rights {
+  display: flex;
+  align-items: flex-end;
+  width: 50%;
+  margin-left: 11%;
+}
+
+.siteby {
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+  margin-right: 5%;
+  margin-top: 4%;
+}
+
+.main1{
+  padding-top: 55px;
+  padding-right: 25px;
+    width: 100%;
+    background: #000;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid red; */
+}
+
+#our{
+    border-bottom: 1px solid white;
+}
+
+.cards{
+    height: 300px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.text{
+    width: 90%;
+    color: #fff;
+    font-family: messina-sans;
+    font-size: .85rem;
+    line-height: 1.1;
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+.city{
+    width: 90%;
+    line-height: 1.3;
+    margin-top: .25rem;
+    color: #777;
+    font-size: .9rem;
+}
+.img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    height: 60%;
+    width: 100%;
+}
+
+#img{
+    height: 100%;
+    width: 95%;
+    object-fit: cover;
+}
