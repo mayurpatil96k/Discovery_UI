@@ -332,7 +332,7 @@ p {
 .four{
     position: relative;
     width: 100%;
-    height: 150vh;
+    height: 120vh;
     background-color: #f5f2f2;
     /* border: 1px solid red; */
 }
@@ -342,7 +342,167 @@ p {
     /* border: 1px solid red; */
     width: 75%;
     height: 110vh;
-    margin-top: 8%;
     z-index: 3;
     right: 0;
 }
+
+.ftext{
+    margin-left: 9%;
+    margin-top: 7%;
+    position: absolute;
+    height: 75vh;
+    width: 36%;
+    display: flex;
+    z-index: 4;
+    background: white;
+    flex-direction: column;
+    /* border: 1px solid red; */
+}
+
+.ftext1{
+    display: flex;
+    height: 33.33%;
+    width: 73%;
+    /* border: 1px solid red; */
+    margin-left: 15%;
+    align-items: end;
+    padding-bottom: 30px;
+}
+.ftext2{
+    display: flex;
+    height: 33.33%;
+    width: 73%;
+    /* border: 1px solid red; */
+    margin-left: 15%;
+    align-items: center;
+}
+.ftext3{
+    display: flex;
+    height: 33.33%;
+    width: 73%;
+    /* border: 1px solid red; */
+    margin-left: 15%;
+    align-items: center;
+}
+
+.fback{
+    position: absolute;
+    width: 62%;
+    height: 200px;
+    margin-top: 40.3%;
+    background: #e4f2f5;
+    margin-left: 21.2%;
+}
+
+.five{
+    height: 150vh;
+    width: 100%;
+    background-color: #f5f2f2;
+    position: relative;
+}
+
+.thback{
+    position: absolute;
+    width: 62%;
+    height: 200px;
+    margin-top: 48%;
+    background: #f0f0d0;
+    margin-left: 15.5%;
+}
+
+.six{
+    height: 70vh;
+    width: 100%;
+    position: relative;
+}
+
+.simg{
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+}
+
+.stext{
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 30%; 
+    left: 40%;
+    color: white;
+}
+#stext{
+    color: white;
+    font-size: 3.5rem;
+}
+
+.sbtn{
+    position: absolute;
+    top: 55%; 
+    left: 43%;
+    z-index: 5;
+}
+.mainbtn2{
+    height: 65px;
+    width: 170px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+footer{
+    height: 75vh;
+    width: 100%;
+    background: #000;
+    color: white;
+  }
+  .logoninfo{
+    display: flex;
+    /* border: 1px solid red; */
+    margin-top: 8%;
+    justify-content: space-around;
+    height: 50%;
+    width: 100%;
+  }
+  .last{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+  .logomain{
+    width: 40%;
+  }
+  .test{
+    margin-left: 8%;
+  }
+  .infoo{
+    margin-top: 15px;
+    color: hsla(0, 0%, 100%, .75);
+    font-size: 0.95rem;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .abh4{
+    margin-top: 15px;
+    color: white;
+    font-size: 0.95rem;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .rights {
+    display: flex;
+    align-items: flex-end;
+    width: 50%;
+    margin-left: 11%;
+  }
+  
+  .siteby {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    margin-right: 5%;
+    margin-top: 4%;
+  }
