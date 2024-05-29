@@ -359,60 +359,60 @@ p {
   /* border: 1px  solid red; */
 }
 
-.giimg{
+.giimg {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
 
-.globepn{
+.globepn {
   /* border: 1px  solid red; */
   margin-left: 15%;
   margin-top: 15%;
 }
 
-.pnbuttom{
+.pnbuttom {
   /* padding-left: 5px; */
   height: 30px;
   width: 30px;
 }
 
-.globelogomain{
+.globelogomain {
   display: flex;
   margin-left: 15%;
   margin-top: 15%;
   /* padding-left: 10px; */
 }
 
-.glinfo{
+.glinfo {
   font-size: 15px;
   line-height: 0.8;
   font-family: gt-sectra;
 }
 
-.glil{
+.glil {
   height: 30px;
   width: 30px;
 }
-.globelogo1{
+.globelogo1 {
   margin-right: 25px;
 }
 
-.globecity{
+.globecity {
   /* border: 1px  solid red; */
   margin-left: 15%;
   margin-top: 15%;
   font-family: gt-sectra;
-    font-weight: 200;
+  font-weight: 200;
 }
 
-.gcity{
+.gcity {
   font-size: 20px;
 }
-.cityinfo{
+.cityinfo {
   font-size: 35px;
 }
-.locations{
+.locations {
   margin-left: 15%;
   margin-top: 15%;
   display: flex;
@@ -421,11 +421,10 @@ p {
   line-height: 0.8;
   font-family: gt-sectra;
 }
-.coordinatees{
+.coordinatees {
   font-size: 13px;
   margin-left: 10px;
 }
-
 
 .images {
   display: flex;
@@ -458,22 +457,22 @@ p {
   vertical-align: middle;
 }
 
-.bbttnn{
+.bbttnn {
   border: 1px solid white;
   margin-left: 5px;
 }
-.textimg{
+.textimg {
   font-family: gotham;
-    font-weight: 100;
+  font-weight: 100;
 }
 
-footer{
+footer {
   height: 75vh;
   width: 100%;
   background: #161f1e;
   color: white;
 }
-.logoninfo{
+.logoninfo {
   display: flex;
   /* border: 1px solid red; */
   margin-top: 8%;
@@ -481,28 +480,28 @@ footer{
   height: 50%;
   width: 100%;
 }
-.last{
+.last {
   display: flex;
   width: 100%;
   justify-content: space-around;
 }
 
-.logomain{
+.logomain {
   width: 40%;
 }
-.test{
+.test {
   margin-left: 8%;
 }
-.infoo{
+.infoo {
   margin-top: 15px;
-  color: hsla(0, 0%, 100%, .75);
+  color: hsla(0, 0%, 100%, 0.75);
   font-size: 0.95rem;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
-.abh4{
+.abh4 {
   margin-top: 15px;
   color: white;
   font-size: 0.95rem;
@@ -525,4 +524,8 @@ footer{
   width: 50%;
   margin-right: 5%;
   margin-top: 4%;
+}
+
+.btnfinal {
+  all: unset;
 }
