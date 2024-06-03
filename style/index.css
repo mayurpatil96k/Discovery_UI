@@ -506,7 +506,6 @@ footer {
   color: white;
   font-size: 0.95rem;
   font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
@@ -528,4 +527,259 @@ footer {
 
 .btnfinal {
   all: unset;
+}
+
+@keyframes hver{
+  from{border-bottom: none;}
+  to{border-bottom: 1px solid white;  }
+}
+.h11:hover{
+  animation: hver 1s;
+  animation-timing-function: ease;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .header {
+    height: 15%;
+  }
+
+  #Layer_1 {
+    height: 40px;
+    width: 120px;
+  }
+
+  .logo {
+    width: 40%;
+  }
+
+  .headsection1 {
+    width: 60%;
+    justify-content: space-between;
+  }
+
+  .h11 {
+    font-size: 0.8rem;
+  }
+
+  .headbtn {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  .line1 {
+    margin-top: 25vw;
+    margin-left: 10vw;
+  }
+
+  p,
+  .p1 {
+    font-size: 5vw;
+  }
+
+  .scrollline {
+    margin-top: 50vw;
+    margin-left: 5vw;
+  }
+
+  .arrow {
+    height: 60px;
+    width: 60px;
+    margin-top: 45vw;
+    margin-left: 70vw;
+  }
+
+  .arr {
+    height: 25px;
+    width: 20px;
+  }
+
+  .gapcustom {
+    width: 5%;
+  }
+
+  .name {
+    font-size: 1rem;
+  }
+
+  .scroll {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .header {
+    height: 10%;
+  }
+
+  #Layer_1 {
+    height: 30px;
+    width: 100px;
+  }
+
+  .logo {
+    width: 50%;
+  }
+
+  .headsection1 {
+    width: 50%;
+    justify-content: flex-end;
+  }
+
+  .h11 {
+    font-size: 0.7rem;
+  }
+
+  .headbtn {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .line1 {
+    margin-top: 20vw;
+    margin-left: 5vw;
+  }
+
+  p,
+  .p1 {
+    font-size: 4vw;
+  }
+
+  .scrollline {
+    margin-top: 60vw;
+    margin-left: 3vw;
+  }
+
+  .arrow {
+    height: 50px;
+    width: 50px;
+    margin-top: 55vw;
+    margin-left: 60vw;
+  }
+
+  .arr {
+    height: 20px;
+    width: 15px;
+  }
+
+  .gapcustom {
+    width: 2%;
+  }
+
+  .name {
+    font-size: 0.8rem;
+  }
+
+  .scroll {
+    font-size: 0.6rem;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .headline {
+    top: 10%;
+    left: 5%;
+    height: auto;
+    width: 90%;
+  }
+
+  .h33 {
+    font-size: 2rem;
+  }
+
+  .img1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 50vh;
+    width: 100vw;
+  }
+
+  .img2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 50vh;
+    width: 100vw;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .headline {
+    top: 8%;
+    left: 5%;
+    height: auto;
+    width: 90%;
+  }
+
+  .h33 {
+    font-size: 1.5rem;
+  }
+
+  .img1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 40vh;
+    width: 100vw;
+  }
+
+  .img2 {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 40vh;
+    width: 100vw;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  footer {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .logoninfo,
+  .last {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .logomain {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .test {
+    margin-left: 0;
+  }
+
+  .infoo,
+  .abh4 {
+    font-size: 0.85rem;
+  }
+
+  .rights,
+  .siteby {
+    width: 80%;
+    justify-content: center;
+    margin: 10px 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .infoo,
+  .abh4 {
+    font-size: 0.75rem;
+  }
+
+  .rights,
+  .siteby {
+    width: 90%;
+  }
 }
